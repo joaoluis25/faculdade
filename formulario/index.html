@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Ex1</title>
+</head>
+<body>
+    <form action="destino.php" method="post">
+        <fieldset>
+            <legend>Dados Gerais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" minlength="3" id="inName">
+
+            <label for="data">Data de Nascimento:</label>
+            <input type="date" id="inData">
+
+            <label for="cpf">CPF:</label>
+            <input type="number" minlength="11" id="inCpf">
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="tipo-endereco">Tipo:</label>
+            <select id="inEndereco">
+                <option value="">Selecione</option>
+                <option value="">Rua</option>
+                <option value="">Estrada</option>
+                <option value="">Rodovia</option>
+                <option value="">Outros</option>
+            </select>
+
+            <label for="logradouro">Logradouro:</label>
+            <input type="text" id="inLogradouro">
+
+            <label for="numero">Numero:</label>
+            <input type="number" id="inNum">
+
+            <label for="complemento">Complemento:</label>
+            <input type="text" id="inComplemento">
+        </fieldset>
+
+        <fieldset>
+            <legend>Fale Conosco</legend>
+
+            <label for="msg">Mensagem:</label> <br>
+            <textarea type="text" id="inMsg"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <button type="submit">Enviar Formulario</button>
+            <button type="reset">Limpar Formulario</button>
+        </fieldset>
+    </form>
+
+    <!--
+    ALGUMAS INFORMAÇÔES SOBRE AS TAGS USADAS NA CRIAÇÂO DESSE FORMULARIO
+
+    <form>
+     action
+     Define a URL (endereço) para a qual os dados do formulário serão enviados.
+
+
+    <form>
+     method
+     Define o método HTTP (POST ou GET) para envio dos dados.
+
+
+    <label>
+     for
+     Vincula a tag <label> ao campo ao qual ela se refere. Esse vínculo faz com que seja possível clicar na label para ativar o campo relacionado.
+
+
+    <input>
+     minlength, maxlength
+     Define a quantidade de caracteres mínima e máxima, respectivamente, permitida em um campo.
+
+
+    <input> e <button>
+     type
+     Define o tipo do campo e, sobretudo, como ele se comporta.
+
+
+    <option>
+     value
+     Define o valor do campo, e também pode ser utilizado na tag <input>. No caso da <option>, os seus valores possíveis são previamente definidos quando a página é codificada. Já na <input>, embora também possa ser previamente definido, normalmente é o usuário quem define o seu valor.
+        
+    -->
+    
+</body>
+</html>
