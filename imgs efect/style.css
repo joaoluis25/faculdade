@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 250px;
+}
+
+#container{
+    margin: 50px 0 0 200px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 450px;
+    width: 70%;
+}
+
+#container img{
+   width: 15%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+   border: 3px solid rgba(255, 255, 255, 0.5);
+   transition: all 0.5s  ease-in-out;
+}
+
+#container img:hover{
+    width: 25%;
+    cursor: pointer;
+}
+
+    
