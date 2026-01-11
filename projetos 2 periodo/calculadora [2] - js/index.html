@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <h1>Calculadora João Luís</h1>
+
+    <div class="calculator">
+        <input type="text" disabled id="display">
+        <div class="box-buttons">
+            <button onclick="clean()"> <abbr title="apagar"> C </abbr> </button>
+            <button onclick="back()"> <abbr title="remover"> « </abbr> </button>
+            <button onclick="insertToDisplay('/')"> <abbr title="dividir">/</abbr> </button>
+            <button onclick="insertToDisplay('*')"> <abbr title="multiplicar">*</abbr> </button>
+            <button onclick="insertToDisplay('7')"> 7 </button>
+            <button onclick="insertToDisplay('8')"> 8 </button>
+            <button onclick="insertToDisplay('9')"> 9 </button>
+            <button onclick="insertToDisplay('-')"> <abbr title="subtrair">-</abbr> </button>
+            <button onclick="insertToDisplay('4')"> 4 </button>
+            <button onclick="insertToDisplay('5')"> 5 </button>
+            <button onclick="insertToDisplay('6')"> 6 </button>
+            <button onclick="insertToDisplay('+')"> <abbr title="somar">+</abbr> </button>
+            <button onclick="insertToDisplay('1')"> 1 </button>
+            <button onclick="insertToDisplay('2')"> 2 </button>
+            <button onclick="insertToDisplay('3')"> 3 </button>
+            <button onclick="insertToDisplay('0')" class="tecla0"> 0 </button>
+            <button onclick="insertToDisplay('.')"> . </button>
+            <button onclick="resultado()" class="resultado"> = </button>
+        </div>
+    </div>
+
+
+    <script src="calc.js"></script>
+    
+</body>
+</html>
