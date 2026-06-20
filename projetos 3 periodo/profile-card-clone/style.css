@@ -122,3 +122,24 @@ body{
 .data:last-child { 
 	border-right: none; 
 }
+
+.analytics{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.edit-option{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #89c0e5;
+    margin-bottom: 10px;
+}
+
+hr{
+    width: 100%;
+    margin-top: 30px;
+    color:  rgba(241, 241, 241, 0.475);
+    height: 0.3px;
+}
