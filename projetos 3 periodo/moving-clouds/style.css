@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+
+#container{
+    height: 100vh;
+    position: relative;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.cloud{
+    width: 200px;
+    height: 80px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    position: absolute;
+
+    transform: scale(0.3);
+}
+
+.cloudBubble1{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    position: absolute;
+    top: -50px;
+    left: 30px;
+}
+
+.cloudBubble2{
+    height: 60px;
+    width: 60px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    right: 30px;
+}
