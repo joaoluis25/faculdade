@@ -1,43 +1,40 @@
 @charset "UTF-8";
 
-*{
-    margin: 0;
+body {
+    margin: 0px;
 }
 
-#container{
+#container {
     height: 100vh;
+    background-color: blue;
     position: relative;
-    background-color: lightblue;
     overflow: hidden;
 }
 
-.cloud{
+.cloud {
     width: 200px;
     height: 80px;
-    background-color: aliceblue;
     border-radius: 40px;
     position: absolute;
-
-    transform: scale(0.3);
+    background-color: whitesmoke;
 }
 
-.cloudBubble1{
+.cloudBubble1 {
     width: 100px;
     height: 100px;
-    background-color: aliceblue;
     border-radius: 50px;
+    background-color: whitesmoke;
     position: absolute;
     top: -50px;
     left: 30px;
 }
 
-.cloudBubble2{
-    height: 60px;
+.cloudBubble2 {
     width: 60px;
-    background-color: aliceblue;
+    height: 60px;
     border-radius: 30px;
+    background-color: whitesmoke;
     position: absolute;
     top: -30px;
-    left: 30px;
     right: 30px;
 }
