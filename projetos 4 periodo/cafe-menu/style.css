@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body{
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: lightgray;
+}
+
+main{
+    height: 80vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+}
+
+.welcome{
+    font-weight: 700;
+}
+
+h2{
+    font-size: 24px;
+    color: brown;
+}
+
+.dish-name{
+    color:white;
+    background-color: black;
+    padding: 2px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
