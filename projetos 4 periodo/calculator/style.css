@@ -8,3 +8,49 @@ body{
     background-color: lightgray;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.calculator{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display{
+    padding: 20px;
+    font-size: 30px;
+    border: none;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,105px);
+}
+
+.btn{
+    padding: 20px;
+    font-size: 20px;
+    border: 1px, solid, gray;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: lightgray;
+    font-size: 22px;
+    opacity: 0.8;
+}
+
+.equal{
+    grid-column: span 3;
+    background-color: white;
+}
+
+.equal:hover{
+    background-color: lightgray;
+    font-size: 22px;
+    opacity: 0.8;
+}
